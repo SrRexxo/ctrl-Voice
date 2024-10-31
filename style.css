@@ -1,1 +1,6 @@
-
+.stApp {
+    background-image: url("file:///C:/Users/clase/Downloads/fondo_Cyberpunk.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
