@@ -35,13 +35,6 @@ image = Image.open('voice_ctrl.jpg')
 
 st.image(image, width=200)
 
-
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
-local_css("style.css")
-
 st.write("Toca el Botón y habla ")
 
 stt_button = Button(label=" Inicio ", width=200)
